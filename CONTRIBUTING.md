@@ -4,7 +4,7 @@ Thank you very much for your interest in contributing to this project!
 
 ## About our deal
 
-Hi! I am Matheus Vidigal and I am the creator and maintainer of this "clone" project from @Maykbrito of the NLW # 3 Discovery event.
+Hi! I am Matheus Vidigal and I am the creator and maintainer of this "clone" project from @Maykbrito of the NLW #3 Discovery event.
 
 If you encounter bugs, please **do** open an issue describing the bug and including steps to easily reproduce it.
 
