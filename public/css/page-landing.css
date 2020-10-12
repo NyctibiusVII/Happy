@@ -1,5 +1,7 @@
 #page-landing {
-    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat;
+    /*background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat;*/
+    /*background: linear-gradient(329.54deg, #1498b3 0%, #84d8ff 100%) no-repeat;*/
+    background: linear-gradient(329.54deg, #ff15b9 0%, #ffee56 100%) no-repeat;
     /*fundo: degrade linear(degraus de rotação, cor inicial do 0% para cor secundaria 100%) não repita na pagina*/
 
     text-align: center;
@@ -52,5 +54,5 @@ main h1 {
     animation-delay: 250ms;
 }
 .visit a:hover {
-    background: #96feff;
+    background: #ff7ed8;
 }

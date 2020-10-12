@@ -1,25 +1,25 @@
 <h1 align="center">
   <br>
-    <img src="./.github/random.png" width="300" alt="random">
+    <img src="./.github/logo-happy.png" width="500" heigh="150" alt="logo happy">
 </h1>
 <!-- <h4 align="center">Projeto web construído durante o Next Level Week #03-Discovery com a Rocketseat/maykbrito.</h4> -->
 <p align="center">
   <a href="">
-    <img alt="Platform" src="https://img.shields.io/static/v1?label=Plataform&message=Mobile/PC&color=2b7edc&labelColor=000000">
+    <img alt="Platform" src="https://img.shields.io/static/v1?label=Plataform&message=Mobile/PC&color=ff69b4&labelColor=ffdc63">
   </a>
   <a aria-label="Completed" href="https://nextlevelweek.com/episodios/omnistack/edicao/2">
-    <img src="https://img.shields.io/badge/random-NLW 3.0-2b7edc?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg==&labelColor=000000"></img>
+    <img src="https://img.shields.io/badge/Happy-NLW 3.0-ff69b4?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg==&labelColor=ffdc63"></img>
   </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/NyctibiusVII/NLW-3-Discovery?color=2b7edc&labelColor=000000">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/NyctibiusVII/NLW-3-Discovery?color=ff69b4&labelColor=ffdc63">
   <a href="https://github.com/NyctibiusVII/NLW-3-Discovery/blob/master/LICENSE">
-    <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=2b7edc&labelColor=000000">
+    <img alt="License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=ff69b4&labelColor=ffdc63">
   </a>
   <a href="https://picpay.me/Matheus_nyctibius_vii">
-  <img alt="Donate" src="https://img.shields.io/static/v1?label=$&message=Donate&color=ff69b4&labelColor=000000">
+  <img alt="Donate" src="https://img.shields.io/static/v1?label=$&message=Donate&color=ff69b4&labelColor=ffdc63">
   </a>
 </p>
 <p align="center">
-  <a href="#random-">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Happy-">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technology-">Technology</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout-">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license-%EF%B8%8F">License</a>
@@ -30,20 +30,18 @@
     <a href="README-pt.md">Português</a>
 </p>
 
-# random <img src=".github/random.png" width="18">
-random, made at Next Level Week #3 @Rocketseat
+# Happy <img src=".github/logo-icon.png" width="20" alt="logo icon">
+Project developed to bring happiness to the world, connecting more people to orphanage children. Project carried out at Next Level Week #3 @Rocketseat.
 
 #### Functionalities
-* random.
-* random.
+* Site for registering orphanages.
+* App to locate orphanages near your region.
 
 ## Technology 🚀
 This project was developed with the following technologies:
 
-- [random](https://random)
-- [random](https://random)
-- [random](https://random)
-- [random](https://random)
+- [Node.js](https://nodejs.org/en/)
+- [SQLite](https://www.sqlite.org/index.html)
 
 ## Layout 🚧
 #### Web Screenshot
@@ -54,7 +52,8 @@ This project was developed with the following technologies:
 
 #### Mobile Screenshot
 <div style="display: flex; flex-direction: 'row';">
-   <img src="./.github/mobile_random.png" width="180">
+<!-- Responsive, 425 x 900, 60% (Mobile L - 425px)-->
+   <img src="./.github/mobile-index.png" width="180">
    <img src="./.github/mobile_random.png" width="180">
    <img src="./.github/mobile_random.png" width="180">
 </div>
@@ -87,9 +86,10 @@ This project is under the MIT license. See the archive [LICENSE](https://github.
 
 <p align="left">	
    <a href="https://www.linkedin.com/in/matheus-vidigal-nyctibiusvii/">
-      <img alt="Matheus Vidigal / Linkedin" src="https://img.shields.io/badge/-Matheus Vidigal-2b7edc?style=flat&logo=Linkedin&logoColor=white" />
+      <img alt="Matheus Vidigal / Linkedin" src="https://img.shields.io/badge/-Matheus Vidigal-ffdc63?style=flat&logo=Linkedin&logoColor=414141" />
    </a>
    <a href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSGLCKpKJfwPsKKqzXBplKkGtCLvCQcFWdWxCxQFfkHzzjVkgzrMFPBgKBmWFHvrjrCsMqSH">
-      <img alt="Matheus Vidigal / Linkedin" src="https://img.shields.io/badge/-Matheus Vidigal-2b7edc?style=flat&logo=Gmail&logoColor=white" />
+      <img alt="Matheus Vidigal / Linkedin" src="https://img.shields.io/badge/-Matheus Vidigal-ff69b4?style=flat&logo=Gmail&logoColor=ffffff" />
    </a>
 </p>
+<!-- amarelo: #ffd666 -->
