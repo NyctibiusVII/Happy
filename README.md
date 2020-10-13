@@ -5,17 +5,17 @@
 <!-- <h4 align="center">Projeto web construído durante o Next Level Week #03-Discovery com a Rocketseat/maykbrito.</h4> -->
 <p align="center">
   <a href="">
-    <img alt="Platform" src="https://img.shields.io/static/v1?label=Plataform&message=Mobile/PC&color=ff69b4&labelColor=ffdc63">
+    <img alt="Platform" src="https://img.shields.io/static/v1?label=Plataform&message=Mobile/PC&color=ff69b4&labelColor=ffee56">
   </a>
   <a aria-label="Completed" href="https://nextlevelweek.com/episodios/omnistack/edicao/2">
-    <img src="https://img.shields.io/badge/Happy-NLW 3.0-ff69b4?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg==&labelColor=ffdc63"></img>
+    <img src="https://img.shields.io/badge/Happy-NLW 3.0-ff69b4?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg==&labelColor=ffee56"></img>
   </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/NyctibiusVII/NLW-3-Discovery?color=ff69b4&labelColor=ffdc63">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/NyctibiusVII/NLW-3-Discovery?color=ff69b4&labelColor=ffee56">
   <a href="https://github.com/NyctibiusVII/NLW-3-Discovery/blob/master/LICENSE">
-    <img alt="License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=ff69b4&labelColor=ffdc63">
+    <img alt="License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=ff69b4&labelColor=ffee56">
   </a>
   <a href="https://picpay.me/Matheus_nyctibius_vii">
-  <img alt="Donate" src="https://img.shields.io/static/v1?label=$&message=Donate&color=ff69b4&labelColor=ffdc63">
+  <img alt="Donate" src="https://img.shields.io/static/v1?label=$&message=Donate&color=ff69b4&labelColor=ffee56">
   </a>
 </p>
 <p align="center">
@@ -46,8 +46,9 @@ This project was developed with the following technologies:
 ## Layout 🚧
 #### Web Screenshot
 <div style="display: flex; flex-direction: 'column'; align-items: 'center';">
-   <img src="./.github/desktop_random.png" width="400px">
-   <img src="./.github/desktop_random.png" width="400px">
+<!-- Responsive, 1440 x 782, 70% (Laptop L - 1440px)-->
+   <img src="./.github/desktop-index.png" width="400px">
+   <img src="./.github/desktop-random.png" width="400px">
 </div>
 
 #### Mobile Screenshot
@@ -86,7 +87,7 @@ This project is under the MIT license. See the archive [LICENSE](https://github.
 
 <p align="left">	
    <a href="https://www.linkedin.com/in/matheus-vidigal-nyctibiusvii/">
-      <img alt="Matheus Vidigal / Linkedin" src="https://img.shields.io/badge/-Matheus Vidigal-ffdc63?style=flat&logo=Linkedin&logoColor=414141" />
+      <img alt="Matheus Vidigal / Linkedin" src="https://img.shields.io/badge/-Matheus Vidigal-ffee56?style=flat&logo=Linkedin&logoColor=414141" />
    </a>
    <a href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSGLCKpKJfwPsKKqzXBplKkGtCLvCQcFWdWxCxQFfkHzzjVkgzrMFPBgKBmWFHvrjrCsMqSH">
       <img alt="Matheus Vidigal / Linkedin" src="https://img.shields.io/badge/-Matheus Vidigal-ff69b4?style=flat&logo=Gmail&logoColor=ffffff" />

@@ -1,8 +1,7 @@
 #page-landing {
-    /*background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat;*/
-    /*background: linear-gradient(329.54deg, #1498b3 0%, #84d8ff 100%) no-repeat;*/
+    /*background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat; ORIGINAL*/
     background: linear-gradient(329.54deg, #ff15b9 0%, #ffee56 100%) no-repeat;
-    /*fundo: degrade linear(degraus de rotação, cor inicial do 0% para cor secundaria 100%) não repita na pagina*/
+    /*fundo: degrade linear((61°)degraus de rotação, cor inicial do 0% para cor secundaria 100%) não repita na pagina*/
 
     text-align: center;
     min-height: 100vh;
@@ -12,7 +11,7 @@
 #container {
     margin: auto;
 
-    width: 90%;
+    width: min(90%, 112rem);
 }
 .location, h1, .visit p {
     height: 16vh;
@@ -46,6 +45,8 @@
 }
 main h1 {
     animation-delay: 150ms;
+    font-size: clamp(4rem, 8vw, 8.4rem);
+    /*         clamp(min, ideal, max) */
 }
 .visit p {
     animation-delay: 200ms;
@@ -54,5 +55,53 @@ main h1 {
     animation-delay: 250ms;
 }
 .visit a:hover {
-    background: #ff7ed8;
+    background: #ff99ff;
+}
+
+
+
+/* Desktop version */
+@media (min-width: 760px) {
+/* 760px para cima faz o que esta aqui dentro */
+    #container {
+        padding: 5rem 2rem;
+
+        background: url("../images/bg.svg") no-repeat 80% / clamp(30rem, 54vw, 56rem);
+        /* shorthand background: image repeat position / size */
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .location, h1, .visit p {
+        height: initial;/* Da reset para antes de aplicar as regras css */
+        text-align: initial;
+    }
+    .location {
+        text-align: right;
+        font-size: 2.4rem;
+        line-height: 1.5;
+    }
+    main h1 {
+        font-weight: bold;
+        line-height: .88;
+
+        margin: clamp(10%, 9vh, 12%) 0 4rem;
+
+        width: min(300px, 80%); /* minimo de largura */
+    }
+    .visit {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .visit p {
+        font-size: 2.4rem;
+        line-height: 1.5;
+        width: clamp(20rem, 20vw, 30rem);
+    }
+    .visit a {
+        margin: initial;
+    }
 }
