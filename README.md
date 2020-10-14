@@ -41,14 +41,16 @@ Project developed to bring happiness to the world, connecting more people to orp
 This project was developed with the following technologies:
 
 - [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/pt-br/)
 - [SQLite](https://www.sqlite.org/index.html)
+- [Nunjucks](https://mozilla.github.io/nunjucks/)
 
 ## Layout 🚧
 #### Web Screenshot
 <div style="display: flex; flex-direction: 'column'; align-items: 'center';">
-<!-- Responsive, 1440 x 782, 70% (Laptop L - 1440px)-->
+<!-- Responsive, 1440 x 900, 50% (Laptop L - 1440px)-->
    <img src="./.github/desktop-index.png" width="400px">
-   <img src="./.github/desktop-random.png" width="400px">
+   <img src="./.github/desktop-orphanages.png" width="400px">
 </div>
 
 #### Mobile Screenshot
@@ -69,6 +71,13 @@ $ git clone https://github.com/NyctibiusVII/NLW-3-Discovery.git
 # Access the project folder at the command prompt
 $ cd NLW3
 
+# Install the dependencies
+$ npm install
+
+# Run the script "dev"
+$ npm run dev
+
+# The project will start at the door: 5000 - acesse http://localhost:5000 
 # working in progress...
 ```
 

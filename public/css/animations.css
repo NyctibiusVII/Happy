@@ -1,4 +1,4 @@
-/* animação */
+/* animação | index */
 @keyframes up {
     from { 
         opacity: 0;
@@ -14,4 +14,39 @@
     animation-duration: 300ms;
     animation-fill-mode: backwards;
     /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+}
+
+
+
+/* animação | orphanages */
+@keyframes right {
+    from { 
+        opacity: 0;
+        transform: translateX(-100%)
+    }
+    to { 
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+.animate-right {
+    animation-name: right;
+    animation-duration: 300ms;
+}
+
+
+
+/* animação | orphanages / map*/
+@keyframes appear {
+    from { 
+        opacity: 0;
+    }
+    to { 
+        opacity: 1;
+    }
+}
+.animate-appear {
+    animation-name: appear;
+    animation-duration: 300ms;
+    animation-fill-mode: backwards; /* animação para no 'to', ou seja, não da reset para o 'from'*/
 }
