@@ -59,6 +59,7 @@ This project was developed with the following technologies:
    <img src="./.github/mobile-index.png" width="180">
    <img src="./.github/mobile-orphanages.png" width="180">
    <img src="./.github/mobile-orphanage.png" width="180">
+   <img src="./.github/mobile-create-orphanage.png" width="180">
 </div>
 
 ## Running the project 🚴🏻‍♂️

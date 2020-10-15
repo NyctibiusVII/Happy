@@ -1,0 +1,25 @@
+/* Mini Map */
+.map-container {
+    margin-top: 6.4rem;
+
+    border: 1px solid #ffe9dccc;
+    border-radius: 2rem;
+    background: #ffede25d;
+}
+#mapid {
+    width: 100%;
+    height: 28rem;
+}
+.map-container footer {
+    padding: 2rem 0;
+
+    text-align: center;
+}
+.map-container footer a{
+    color: #e68c58a1;
+    text-decoration: none;
+}
+.map-container .leaflet-container {
+    border-bottom: 1px solid #ffe9dccc;
+    border-radius: 2rem;
+}

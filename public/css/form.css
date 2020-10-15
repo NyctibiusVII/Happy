@@ -1,0 +1,106 @@
+form {
+  width: 70rem;
+  margin: 6.4rem auto;
+  background: #ffffff;
+  border: 1px solid #ffe9dccc;  
+  border-radius: 2rem;  
+  overflow: hidden; 
+  padding: 8rem;
+}
+  
+
+
+fieldset {
+  border: 0;
+}
+fieldset + fieldset { /* pega o 2°segundo fieldset (irmão*) */
+  margin-top: 8rem;
+}
+fieldset legend {
+  width: 100%;
+
+  font-size: 3.2rem;
+  line-height: 1.5;
+
+  color: #ff9d65;
+  font-weight: 700;
+
+  border-bottom: 1px solid #ffe9dccc;
+  margin-bottom: 4rem;
+  padding-bottom: 2.4rem;
+}
+
+
+
+.input-block + .input-block {
+  margin-top: 2.4rem;
+}
+.input-block label {
+  color: #e68c58bb;
+  margin-bottom: .8rem;
+  line-height: 1.5;
+}
+.input-block label span {
+  font-size: 1.4rem;
+  color: #cf7f50bb;
+  margin-left: 2.4rem;
+}
+.input-block input, .input-block textarea {
+  width: 100%;
+
+  background: #ffede25d;
+  border: 1px solid #ffe9dccc;
+  border-radius: 2rem;
+
+  color: #cf7f50bb;
+}
+.input-block input {
+  height: 6.4rem;
+  padding: 0 1.6rem;
+}
+.input-block input:valid,
+.input-block textarea:valid { /*#A1E9C5 = verde*/
+  border: 5px solid #ffd79a1e;
+}
+.input-block textarea {
+  height: clamp(12rem, 16rem, 24rem);
+  resize: vertical;
+  padding: 1.6rem;
+  line-height: 2.8rem;
+}
+.input-block.images button {
+  border: 1px dashed #ffd7c0ee;
+  width: 100%;
+  background: #ffede25d;
+  height: 6.4rem;
+  padding: 0 1.6rem;
+  margin-top: 2.4rem;
+  border-radius: 2rem;
+
+  cursor: pointer;
+}
+
+
+
+.new-upload {
+  position: relative;
+}
+.new-upload + .new-upload {
+  margin-top: 2.4rem;
+}
+.new-upload span {
+  position: absolute;
+  right: 12px;
+  bottom: 14px;
+
+  display: flex;
+
+  background: #ffe9dccc;
+  border: 1px solid #fff5eecc;
+  border-radius: 10px;
+  box-sizing: border-box;
+
+  padding: .6rem;
+
+  cursor: pointer;
+}
