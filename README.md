@@ -57,8 +57,8 @@ This project was developed with the following technologies:
 <div style="display: flex; flex-direction: 'row';">
 <!-- Responsive, 425 x 900, 60% (Mobile L - 425px)-->
    <img src="./.github/mobile-index.png" width="180">
-   <img src="./.github/mobile_random.png" width="180">
-   <img src="./.github/mobile_random.png" width="180">
+   <img src="./.github/mobile-orphanages.png" width="180">
+   <img src="./.github/mobile-orphanage.png" width="180">
 </div>
 
 ## Running the project 🚴🏻‍♂️

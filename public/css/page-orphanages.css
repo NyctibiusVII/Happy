@@ -71,10 +71,14 @@ a.create-orphanage:hover {
 
 /* Map */
 .leaflet-popup-content-wrapper {
-    margin-left: 1.8rem;
+    /*margin-left: 1.8rem;*/
     background: linear-gradient(329.54deg, #ff15b9 0%, #ffee56 100%) no-repeat;
     /*rgba(255, 255, 255, 0.8);*/
     border-radius: 20px;
+
+    /**/position: absolute;
+    left: -12rem;
+    bottom: 0;
 }
 .leaflet-popup-content {
     color: #ffffff;
@@ -86,6 +90,12 @@ a.create-orphanage:hover {
     justify-content: space-between;
 }
 
+.leaflet-popup-content p {
+    margin: 0;
+}
+#text-limiter {
+    padding-left: 2rem;
+}
 .leaflet-popup-content a {/* Button */
     width: 4rem;
     height: 4rem;
@@ -115,4 +125,4 @@ a.create-orphanage:hover {
 .leaflet-container {
     font: 700 2rem/1 'Nunito', sans-serif;
     z-index: 5;
-}    
+}
