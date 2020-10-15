@@ -11,6 +11,7 @@ body {
     height: 100vh;
 
     color: white;
+    background: #fffcf26c;
 }
 body, input, button, textarea {
     /*font-size: 18px;
@@ -19,4 +20,7 @@ body, input, button, textarea {
     font-family: 'Nunito', sans-serif;*/
 
     font: 400 1.8rem/1 'Nunito', sans-serif;
+}
+button:focus{ 
+    outline:none
 }

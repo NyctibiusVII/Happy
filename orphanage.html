@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--adaptável para cel & tablets (ativa o @media)-->
+    <title>Orfanato Santa Rita de Cássia | Happy</title>
+
+    <!-- Biblioteca | MAPA -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+    <link rel="icon" href="./public/images/logo-icon.png">
+    <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="stylesheet" href="./public/css/animations.css">
+    <link rel="stylesheet" href="./public/css/page-orphanage.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="page-orphanage">
+        <aside class="animate-right sidebar">
+            <img src="./public/images/map-marker.svg" alt="Happy">
+            
+            <footer>
+                <button onclick="history.back()">
+                    <img src="./public/images/arrow-back.svg" alt="Voltar">
+                </button>
+            </footer>
+        </aside>
+
+        <main class="animate-appear width-sidebar">
+            <div class="orphanage-details">
+                <img src="./public/images/entrada.jpg" alt="Imagens sobre o orfanato">
+                
+                <div class="images">
+                    <button onclick="selectImage(event)" type="button" class="active" >
+                        <img src="./public/images/entrada.jpg" alt="Imagens sobre o orfanato"/>
+                    </button>
+
+                    <button onclick="selectImage(event)" type="button">
+                        <img src="./public/images/crianca-braboleta.jpg" alt="Imagens sobre o orfanato"/>
+                    </button>
+
+                    <button onclick="selectImage(event)" type="button">
+                        <img src="./public/images/irmas-franciscanas.jpg" alt="Imagens sobre o orfanato"/>
+                    </button>
+
+                    <button onclick="selectImage(event)" type="button">
+                        <img src="./public/images/rodinha-de-meninas.jpg" alt="Imagens sobre o orfanato"/>
+                    </button>
+
+                    <button onclick="selectImage(event)" type="button">
+                        <img src="./public/images/grupo-de-meninas.png" alt="Imagens sobre o orfanato"/>
+                    </button>
+
+                    <button onclick="selectImage(event)" type="button">
+                        <img src="./public/images/natacao.jpg" alt="Imagens sobre o orfanato"/>
+                    </button>
+                </div>
+
+                <div class="orphanage-details-content">
+                    <h1>Orfanato Santa Rita de Cássia</h1>
+                    <p>O Orfanato Santa Rita de Cássia é um lugar que vive de carinho e amor doado pelas Irmãs Franciscanas, por voluntários, por doadores, por amigos e amigas e pela comunidade, para as meninas e adolescentes em situação de vulnerabilidade social em dois programas: Acolhimento institucional na faixa etária de 04 a 10 anos (abrigo) e Casa Dia faixa etária de 04 a 12 anos (externato).</p>
+                    
+                    <div class="map-container">
+                        <div id="mapid"></div>
+                        <footer>
+                            <a href="">Ver rotas no Google Maps</a>
+                        </footer>
+                    </div>
+
+                    <hr/>
+
+                    <h2>Instruções para visita</h2>
+                    <p>Venha como se sentir a vontade e traga muito amor e paciência para dar.</p>
+                
+                    <div class="open-details">
+                        <div class="hour">
+                            <img src="./public/images/clock.svg" alt="Horários">
+                            Horário de visitas das 08h até 18h
+                        </div>
+                        <div class="closed-on-weekends">
+                            <img src="./public/images/info-red.svg" alt="Informações">
+                            Não atendemos fim de semana
+                        </div>
+                    </div>
+
+                    <button class="primary-button"type="button">
+                        <img src="./public/images/whatsapp.svg" alt="Chamar no whatsapp">
+                        Entrar em contato
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script type="text/javascript" src="./public/scripts/page-orphanage.js"></script>
+</body>
+</html>

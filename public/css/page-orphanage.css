@@ -1,0 +1,218 @@
+#page-orphanage {
+    display: flex;
+    min-height: 100vh;
+}
+
+
+
+/* Barra lateral */
+aside.sidebar {
+    position: fixed;
+    height: 100%;
+    padding: 32px 24px; /* 3.2rem 2.4rem */
+    background: linear-gradient(329.54deg, #ff15b9 0%, #ffee56 100%) no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+aside.sidebar footer button{
+    width: 48px;
+    height: 48px;
+
+    border: none;
+    border-radius: 1.6rem;
+    background: #ffa876;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+}
+aside.sidebar footer button:hover{
+    background: #ff8288;
+}
+.width-sidebar {
+    padding-left: 110px;
+}
+
+
+
+main {
+    flex: 1;
+}
+
+
+
+/* Details */
+.orphanage-details {
+    width: 70rem;
+    margin: 6.4rem auto;
+
+    border: 1px solid #ffe9dccc;
+    border-radius: 2rem;
+    background: #ffffff;
+
+    overflow: hidden;
+}
+.orphanage-details > img { /* '<'pega a img de primeiro NIVEL */
+    width: 100%;
+    height: 30rem;
+
+    object-fit: cover;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1.6rem;
+    margin: 16px 40px 0;
+}
+.images button {
+    height: 8.8rem;
+
+    border: 0;
+    border-radius: 2rem;
+    background: none;
+
+    cursor: pointer;
+    overflow: hidden; /* Faz o conteúdo respeita os limites da caixa */
+    
+    opacity: 0.6;
+    transition: opacity 0.2s;
+}
+.images button:hover, 
+.images button.active {
+    opacity: 1;
+}
+.images button img {
+    width: 100%;
+    height: 8.8rem;
+    object-fit: cover;
+}
+
+
+
+/* Orphanage details content */
+.orphanage-details-content {
+    padding: 8rem;
+}
+.orphanage-details-content h1 {
+    color: #ff9d65; /* color title */
+    font-size: 5.4rem;
+    line-height: 1.5;
+    margin-bottom: 0.8rem;
+}
+.orphanage-details-content p {
+    color: #e68c58bb; /* color text */
+    line-height: 1.6;
+    margin-top: 2.4rem;
+}
+
+
+
+/* Mini Map */
+.map-container {
+    margin-top: 6.4rem;
+
+    border: 1px solid #ffe9dccc;
+    border-radius: 2rem;
+    background: #ffede25d;
+}
+#mapid {
+    width: 100%;
+    height: 28rem;
+}
+.map-container footer {
+    padding: 2rem 0;
+
+    text-align: center;
+}
+.map-container footer a{
+    color: #e68c58a1;
+    text-decoration: none;
+}
+.map-container .leaflet-container {
+    border-bottom: 1px solid #ffe9dccc;
+    border-radius: 2rem;
+}
+
+
+
+/* Linha */
+.orphanage-details-content hr {
+    width: 100%;
+    height: 1px;
+
+    border: 0; /* 0 ou none */
+    background: #ffe9dccc;
+
+    margin: 6.4rem 0;
+}
+
+
+
+/* details text */
+.orphanage-details-content h2 {
+    font-size: 3.6rem;
+    line-height: 1.5rem;
+    color: #ff9d65;
+}
+.open-details {
+    margin-top: 2.4rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+.open-details div {
+    padding: 3.2rem 2.4rem;
+    border-radius: 20px;
+}
+.open-details img {
+    display: block;
+    margin-bottom: 2rem;
+}
+.open-details .hour {
+    color: #5C8599;
+    background: linear-gradient(149.97deg, #E6F7FB 8.13%, #FFFFFF 92.67%);
+    border: 1px solid #B3DAE2;
+}
+.open-details .closed-on-weekends {
+    color: #FF669D;
+    background: linear-gradient(154.16deg, #FCF0F4 7.85%, #FFFFFF 91.03%);
+    border: 1px solid #FFBCD4;
+}
+
+
+
+/* Button What */
+.primary-button {
+    margin-top: 6.4rem;
+
+    width: 100%;
+    height: 6.4rem;
+
+    cursor: pointer;
+
+    border: 0;
+    border-radius: 2rem;
+    background: #3cdc8c;
+
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+}
+.primary-button:hover {
+    background-color: #36cf82;
+}
+.primary-button img {
+    margin-right: 1.6rem;
+}
