@@ -42,6 +42,7 @@ This project was developed with the following technologies:
 
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
+- [Handlebars](https://handlebarsjs.com/)
 - [SQLite](https://www.sqlite.org/index.html)
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 
@@ -78,7 +79,7 @@ $ npm install
 # Run the script "dev"
 $ npm run dev
 
-# The project will start at the door: 5000 - acesse http://localhost:5000 
+# The project will start at the door: 5503 - acesse http://localhost:5503 
 # working in progress...
 ```
 
