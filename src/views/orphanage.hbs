@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--adaptável para cel & tablets (ativa o @media)-->
-    <title>Orfanato Santa Rita de Cássia | Happy</title>
+    <title>{{orphanage.name}} | Happy</title>
 
     <!-- Biblioteca | MAPA -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
@@ -35,65 +35,57 @@
 
         <main class="animate-appear width-sidebar">
             <div class="orphanage-details">
-                <img src="/images/entrada.jpg" alt="Imagens sobre o orfanato">
+                <img src="{{orphanage.firstImage}}" alt="{{orphanage.name}}" />
                 
                 <div class="images">
-                    <button onclick="selectImage(event)" type="button" class="active" >
-                        <img src="/images/entrada.jpg" alt="Imagens sobre o orfanato"/>
-                    </button>
-
-                    <button onclick="selectImage(event)" type="button">
-                        <img src="/images/crianca-braboleta.jpg" alt="Imagens sobre o orfanato"/>
-                    </button>
-
-                    <button onclick="selectImage(event)" type="button">
-                        <img src="/images/irmas-franciscanas.jpg" alt="Imagens sobre o orfanato"/>
-                    </button>
-
-                    <button onclick="selectImage(event)" type="button">
-                        <img src="/images/rodinha-de-meninas.jpg" alt="Imagens sobre o orfanato"/>
-                    </button>
-
-                    <button onclick="selectImage(event)" type="button">
-                        <img src="/images/grupo-de-meninas.png" alt="Imagens sobre o orfanato"/>
-                    </button>
-
-                    <button onclick="selectImage(event)" type="button">
-                        <img src="/images/natacao.jpg" alt="Imagens sobre o orfanato"/>
-                    </button>
+                    {{#each orphanage.images }}
+                        <button onclick="selectImage(event)" class="active" type="button">
+                            <img src="{{this}}" alt="{{orphanage.name}}" />
+                        </button>
+                    {{/each}}
                 </div>
 
                 <div class="orphanage-details-content">
-                    <h1>Orfanato Santa Rita de Cássia</h1>
-                    <p>O Orfanato Santa Rita de Cássia é um lugar que vive de carinho e amor doado pelas Irmãs Franciscanas, por voluntários, por doadores, por amigos e amigas e pela comunidade, para as meninas e adolescentes em situação de vulnerabilidade social em dois programas: Acolhimento institucional na faixa etária de 04 a 10 anos (abrigo) e Casa Dia faixa etária de 04 a 12 anos (externato).</p>
+                    <h1>{{orphanage.name}}</h1>
+                    <p>{{orphanage.about}}</p>
                     
                     <div class="map-container">
                         <div id="mapid"></div>
+                        <span data-lat="{{orphanage.lat}}" data-lng="{{orphanage.lng}}"></span>
                         <footer>
-                            <a href="">Ver rotas no Google Maps</a>
+                            <a target="_blank" href="https://maps.google.com/mobile?q={{orphanage.lat}},{{orphanage.lng}}&z=15">Ver rotas no Google Maps</a>
                         </footer>
                     </div>
 
                     <hr/>
 
                     <h2>Instruções para visita</h2>
-                    <p>Venha como se sentir a vontade e traga muito amor e paciência para dar.</p>
+                    <p>{{orphanage.instructions}}</p>
                 
                     <div class="open-details">
                         <div class="hour">
                             <img src="/images/clock.svg" alt="Horários">
-                            Horário de visitas das 08h até 18h
+                            {{orphanage.opening_hours}}
                         </div>
-                        <div class="closed-on-weekends">
-                            <img src="/images/info-red.svg" alt="Informações">
-                            Não atendemos fim de semana
-                        </div>
+
+                        {{#if orphanage.open_on_weekends}}
+                            <div class="open-on-weekends open">
+                              <img src="/images/info.svg" alt="Informações" />
+                              Atendemos fim de semana
+                            </div>
+                        {{else}}
+                            <div class="open-on-weekends closed">
+                              <img src="/images/info-red.svg" alt="Informações" />
+                              Não atendemos fim de semana
+                            </div>
+                        {{/if}}
                     </div>
 
-                    <button class="primary-button"type="button">
-                        <img src="/images/whatsapp.svg" alt="Chamar no whatsapp">
+                    <a href="https://api.whatsapp.com/send?l=pt_BR&phone={{orphanage.whatsapp}}&text=Oi, quero conversar sobre visitas no {{orphanage.name}}."
+                        target="_blank" class="primary-button" type="button">
+                        <img src="/images/whatsapp.svg" alt="Chamar no whatsapp"/>
                         Entrar em contato
-                    </button>
+                    </a>
                 </div>
             </div>
         </main>

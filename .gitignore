@@ -1,5 +1,6 @@
 #.gitignore
 
+#config. pessoal
 .vscode
 
 #node modules

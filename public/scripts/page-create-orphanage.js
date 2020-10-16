@@ -76,3 +76,24 @@ function toggleSelect(event) {
     const input = document.querySelector('[name="open_on_weekends"]')
     input.value = button.dataset.value
 }
+
+
+
+//validação
+//function validate(event) {
+//    const input = document.querySelector('[name="open_on_weekends"]')
+//        const lat = event.latlng.lat
+//        const lng = event.latlng.lng
+//    
+//        document.querySelector('[name=lat]').value = lat
+//        document.querySelector('[name=lng]').value = lng
+//        
+//        if (lat.value && lng.value == "") {
+//            event.preventDefault()
+//            alert("Selecione um ponto no mapa")
+//        } else {
+//            return
+//        }
+// 
+//
+//}

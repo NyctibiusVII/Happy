@@ -44,7 +44,6 @@ This project was developed with the following technologies:
 - [Express](https://expressjs.com/pt-br/)
 - [Handlebars](https://handlebarsjs.com/)
 - [SQLite](https://www.sqlite.org/index.html)
-- [Nunjucks](https://mozilla.github.io/nunjucks/)
 
 ## Layout 🚧
 #### Web Screenshot
@@ -76,11 +75,10 @@ $ cd NLW3
 # Install the dependencies
 $ npm install
 
-# Run the script "dev"
-$ npm run dev
+# Run the script "start"
+$ npm start
 
 # The project will start at the door: 5503 - acesse http://localhost:5503 
-# working in progress...
 ```
 
 ## Contribution 💭
@@ -104,4 +102,3 @@ This project is under the MIT license. See the archive [LICENSE](https://github.
       <img alt="Matheus Vidigal / Linkedin" src="https://img.shields.io/badge/-Matheus Vidigal-ff69b4?style=flat&logo=Gmail&logoColor=ffffff" />
    </a>
 </p>
-<!-- amarelo: #ffd666 -->

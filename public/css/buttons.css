@@ -18,6 +18,8 @@
     justify-content: center;
 
     transition: background-color 0.2s;
+
+    text-decoration: none;
 }
 .primary-button:hover {
     background-color: #36cf82;
