@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--adaptável para cel & tablets (ativa o @media)-->
-    <title>{{orphanage.name}} | Happy</title>
+    <title>{{fosterHome.name}} | Happy</title>
 
     <!-- Biblioteca | MAPA -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
@@ -35,40 +35,40 @@
 
         <main class="animate-appear width-sidebar">
             <div class="foster-home-details">
-                <img src="{{orphanage.firstImage}}" alt="{{orphanage.name}}" />
+                <img src="{{fosterHome.firstImage}}" alt="{{fosterHome.name}}" />
                 
                 <div class="images">
-                    {{#each orphanage.images }}
+                    {{#each fosterHome.images }}
                         <button onclick="selectImage(event)" class="active" type="button">
-                            <img src="{{this}}" alt="{{orphanage.name}}" />
+                            <img src="{{this}}" alt="{{fosterHome.name}}" />
                         </button>
                     {{/each}}
                 </div>
 
                 <div class="foster-home-details-content">
-                    <h1>{{orphanage.name}}</h1>
-                    <p>{{orphanage.about}}</p>
+                    <h1>{{fosterHome.name}}</h1>
+                    <p>{{fosterHome.about}}</p>
                     
                     <div class="map-container">
                         <div id="mapid"></div>
-                        <span data-lat="{{orphanage.lat}}" data-lng="{{orphanage.lng}}"></span>
+                        <span data-lat="{{fosterHome.lat}}" data-lng="{{fosterHome.lng}}"></span>
                         <footer>
-                            <a target="_blank" href="https://maps.google.com/mobile?q={{orphanage.lat}},{{orphanage.lng}}&z=15">Ver rotas no Google Maps</a>
+                            <a target="_blank" href="https://maps.google.com/mobile?q={{fosterHome.lat}},{{fosterHome.lng}}&z=15">Ver rotas no Google Maps</a>
                         </footer>
                     </div>
 
                     <hr/>
 
                     <h2>Instruções para visita</h2>
-                    <p>{{orphanage.instructions}}</p>
+                    <p>{{fosterHome.instructions}}</p>
                 
                     <div class="open-details">
                         <div class="hour">
                             <img src="/images/clock.svg" alt="Horários">
-                            {{orphanage.opening_hours}}
+                            {{fosterHome.opening_hours}}
                         </div>
 
-                        {{#if orphanage.open_on_weekends}}
+                        {{#if fosterHome.open_on_weekends}}
                             <div class="open-on-weekends open">
                               <img src="/images/info.svg" alt="Informações" />
                               Atendemos fim de semana
@@ -81,7 +81,7 @@
                         {{/if}}
                     </div>
 
-                    <a href="https://api.whatsapp.com/send?l=pt_BR&phone={{orphanage.whatsapp}}&text=Oi, quero conversar sobre visitas no {{orphanage.name}}."
+                    <a href="https://api.whatsapp.com/send?l=pt_BR&phone={{fosterHome.whatsapp}}&text=Oi, quero conversar sobre visitas no {{fosterHome.name}}."
                         target="_blank" class="primary-button" type="button">
                         <img src="/images/whatsapp.svg" alt="Chamar no whatsapp"/>
                         Entrar em contato

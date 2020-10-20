@@ -1,54 +1,54 @@
 const Database = require("./database/db")
-const saveOrphanage = require("./database/saveOrphanage")
+const saveFosterHome = require("./database/saveFosterHome")
 
 module.exports = {
   index(req, res) {
     return res.render("index")
   },
 
-  async orphanage(req, res) {
+  async fosterHome(req, res) {
     const id = req.query.id
 
     try {
       const db = await Database
       const results = await db.all(
-        `SELECT * FROM orphanages WHERE id = "${id}"`
+        `SELECT * FROM fosterHomes WHERE id = "${id}"`
       )
 
-      const orphanage = results[0]
+      const fosterHome = results[0]
 
-      orphanage.images = orphanage.images.split(",")
-      orphanage.firstImage = orphanage.images[0]
+      fosterHome.images = fosterHome.images.split(",")
+      fosterHome.firstImage = fosterHome.images[0]
 
-      if (orphanage.open_on_weekends == "0") {
-        orphanage.open_on_weekends = false
+      if (fosterHome.open_on_weekends == "0") {
+        fosterHome.open_on_weekends = false
       } else {
-        orphanage.open_on_weekends = true
+        fosterHome.open_on_weekends = true
       }
 
-      return res.render("orphanage", { orphanage })
+      return res.render("foster-home", { fosterHome })
     } catch (error) {
       console.log(error)
       return res.send("Erro no banco de dados! (async fosterHome)")
     }
   },
 
-  async orphanages(req, res) {
+  async fosterHomes(req, res) {
     try {
       const db = await Database
-      const orphanages = await db.all("SELECT * FROM orphanages")
-      return res.render("orphanages", { orphanages })
+      const fosterHomes = await db.all("SELECT * FROM fosterHomes")
+      return res.render("foster-homes", { fosterHomes })
     } catch (error) {
       console.log(error)
       return res.send("Erro no banco de dados! (async fosterHomes)")
     }
   },
 
-  createOrphanage(req, res) {
-    return res.render("create-orphanage")
+  createFosterHome(req, res) {
+    return res.render("create-foster-home")
   },
 
-  async saveOrphanage(req, res) {
+  async saveFosterHome(req, res) {
     const fields = req.body
 
     //validar se todos os campos estão preenchidos
@@ -59,7 +59,7 @@ module.exports = {
     try {
       //salvar um Lar de adoção
       const db = await Database
-      await saveOrphanage(db, {
+      await saveFosterHome(db, {
         lat: fields.lat,
         lng: fields.lng,
         name: fields.name,
@@ -72,7 +72,7 @@ module.exports = {
       })
 
       //depois que salva o form, redireciona o usuário de volta para o mapa
-      return res.redirect("/orphanages")
+      return res.redirect("/foster-homes")
     } catch (error) {
       console.log(error)
       return res.send("Erro no banco de dados! (async saveFosterHome)")

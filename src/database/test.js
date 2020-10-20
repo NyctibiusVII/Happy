@@ -1,8 +1,8 @@
 const Database = require("./db");
-const saveOrphanage = require("./saveOrphanage");
+const saveFosterHome = require("./saveFosterHome");
 
 Database.then(async (db) => {
-  await saveOrphanage(db, {
+  await saveFosterHome(db, {
     lat: "-27.2214974",
     lng: "-49.6444793",
     name: "Lar dos meninas",
@@ -19,13 +19,13 @@ Database.then(async (db) => {
     open_on_weekends: "1"
   })
 
-  const selectedOrphanages = await db.all("SELECT * FROM orphanages")
-  console.log(selectedOrphanages)
+  const selectedFosterHome = await db.all("SELECT * FROM fosterHomes")
+  console.log(selectedFosterHome)
 
-  const orphanages = await db.all('SELECT * FROM orphanages WHERE id = "1"')
-  console.log(orphanages)
+  const fosterHomes = await db.all('SELECT * FROM fosterHomes WHERE id = "1"')
+  console.log(fosterHomes)
 
-  // console.log(await db.run("DELETE FROM orphanages WHERE id = '2'"))
+  // console.log(await db.run("DELETE FROM fosterHomes WHERE id = '2'"))
 })
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////// SÓ EXECUTE EM CASO DE **TESTE** ///////////////////////////////////////

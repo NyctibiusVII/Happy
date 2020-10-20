@@ -15,10 +15,10 @@ server
 .set('view engine', 'hbs')
 //rotas da aplicação
 .get('/', pages.index)
-.get('/orphanage', pages.orphanage)
-.get('/orphanages', pages.orphanages)
-.get('/create-orphanage', pages.createOrphanage)
-.post('/save-orphanage', pages.saveOrphanage)
+.get('/foster-home', pages.fosterHome)
+.get('/foster-homes', pages.fosterHomes)
+.get('/create-foster-home', pages.createFosterHome)
+.post('/save-foster-home', pages.saveFosterHome)
 
 server.listen(5503, () => {
     console.log ('Server started')
