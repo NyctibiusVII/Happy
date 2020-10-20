@@ -23,9 +23,9 @@
   <a href="#license-%EF%B8%8F">License</a>
 </p>
 <p align="center">
-    <a href="README.md">Inglês</a>
+    <a href="README.md">English</a>
     ·
-    <a href="README-pt.md">Português</a>
+    <a href="README-pt.md">Portuguese</a>
 </p>
 
 # Happy <img src=".github/logo-icon.png" width="20" alt="logo icon">
