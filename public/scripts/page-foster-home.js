@@ -43,7 +43,7 @@ function selectImage(event) {
 
     //Selecionando a imagem clicada
     const image = button.children[0]
-    const imageContainer = document.querySelector('.orphanage-details > img')
+    const imageContainer = document.querySelector('.foster-home-details > img')
 
 
     //Atualizando o container de imagem

@@ -29,7 +29,7 @@ module.exports = {
       return res.render("orphanage", { orphanage })
     } catch (error) {
       console.log(error)
-      return res.send("Erro no banco de dados! (async orphanage)")
+      return res.send("Erro no banco de dados! (async fosterHome)")
     }
   },
 
@@ -40,7 +40,7 @@ module.exports = {
       return res.render("orphanages", { orphanages })
     } catch (error) {
       console.log(error)
-      return res.send("Erro no banco de dados! (async orphanages)")
+      return res.send("Erro no banco de dados! (async fosterHomes)")
     }
   },
 
@@ -75,7 +75,7 @@ module.exports = {
       return res.redirect("/orphanages")
     } catch (error) {
       console.log(error)
-      return res.send("Erro no banco de dados! (async saveOrphanage)")
+      return res.send("Erro no banco de dados! (async saveFosterHome)")
     }
   }
 }

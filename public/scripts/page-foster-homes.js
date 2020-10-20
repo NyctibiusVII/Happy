@@ -13,7 +13,7 @@ const icon = L.icon({
 })
 
 //create popup overlay
-function addMarker({id, name, lat, lng} = orphanage) {
+function addMarker({id, name, lat, lng} = fosterHome) {// WARNINGX
     const popup = L.popup({
         closeButton: false,
         className: "map-popup",
@@ -22,9 +22,9 @@ function addMarker({id, name, lat, lng} = orphanage) {
     }).setContent(
         `${name}`+
         `<div id="text-limiter">`+
-        `<a href="/orphanage?id=${id}"> <img src="/images/arrow-white.svg"> </a>`+
+        `<a href="/foster-home?id=${id}"> <img src="/images/arrow-white.svg"> </a>`+
         `</div>`)
-    //.setContent(`${name} <a href="orphanage?id=${id}"> <img src="/images/arrow-white.svg"> </a>`)
+    //.setContent(`${name} <a href="foster-home?id=${id}"> <img src="/images/arrow-white.svg"> </a>`)
     
 
     L.marker([lat, lng], { icon })
@@ -33,15 +33,15 @@ function addMarker({id, name, lat, lng} = orphanage) {
 }
 
 //create and add marker
-const orphanagesSpan = document.querySelectorAll('.orphanages span')
+const fosterHomeSpan = document.querySelectorAll('.foster-homes span')
 
-orphanagesSpan.forEach( span => {
-    const orphanage = {
+fosterHomeSpan.forEach( span => {
+    const fosterHome = {
         id: span.dataset.id,
         name: span.dataset.name,
         lat: span.dataset.lat,
         lng: span.dataset.lng
     }
 
-    addMarker(orphanage)
+    addMarker(fosterHome)
 })
