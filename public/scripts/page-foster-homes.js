@@ -22,7 +22,7 @@ function addMarker({id, name, lat, lng} = fosterHome) {// WARNINGX
     }).setContent(
         `${name}`+
         `<div id="text-limiter">`+
-        `<a href="/foster-home?id=${id}"> <img src="/images/arrow-white.svg"> </a>`+
+        `<a href="/foster-home?id=${id}"> <img src="/images/arrow-white.svg"> </a>`+// WARNINGX
         `</div>`)
     //.setContent(`${name} <a href="foster-home?id=${id}"> <img src="/images/arrow-white.svg"> </a>`)
     
@@ -33,7 +33,7 @@ function addMarker({id, name, lat, lng} = fosterHome) {// WARNINGX
 }
 
 //create and add marker
-const fosterHomeSpan = document.querySelectorAll('.foster-homes span')
+const fosterHomeSpan = document.querySelectorAll('.fosterHomes span')// WARNINGX
 
 fosterHomeSpan.forEach( span => {
     const fosterHome = {
