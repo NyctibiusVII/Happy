@@ -57,7 +57,7 @@ module.exports = {
     }
 
     try {
-      //salvar um orfanato
+      //salvar um Lar de adoção
       const db = await Database
       await saveOrphanage(db, {
         lat: fields.lat,
