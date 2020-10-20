@@ -1,4 +1,4 @@
-#page-orphanages {
+#page-foster-homes {
     width: 100%;
     height: 100%;
 
@@ -41,7 +41,7 @@ aside footer {
 
 
 /* Button */
-a.create-orphanage {
+a.create-foster-home {
     position: absolute;
     right: 4rem;
     bottom: 4rem;
@@ -63,7 +63,7 @@ a.create-orphanage {
 
     transition: background-color 300ms;
 }
-a.create-orphanage:hover {
+a.create-foster-home:hover {
     background: #eb0aa4;
 }
 

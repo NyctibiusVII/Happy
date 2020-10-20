@@ -1,4 +1,4 @@
-#page-orphanage {
+#page-foster-home {
     display: flex;
     min-height: 100vh;
 }
@@ -12,7 +12,7 @@ main {
 
 
 /* Details */
-.orphanage-details {
+.foster-home-details {
     width: 70rem;
     margin: 6.4rem auto;
 
@@ -22,7 +22,7 @@ main {
 
     overflow: hidden;
 }
-.orphanage-details > img { /* '<'pega a img de primeiro NIVEL */
+.foster-home-details > img { /* '<'pega a img de primeiro NIVEL */
     width: 100%;
     height: 30rem;
 
@@ -61,16 +61,16 @@ main {
 
 
 /* Orphanage details content */
-.orphanage-details-content {
+.foster-home-details-content {
     padding: 8rem;
 }
-.orphanage-details-content h1 {
+.foster-home-details-content h1 {
     color: #ff9d65; /* color title */
     font-size: 5.4rem;
     line-height: 1.5;
     margin-bottom: 0.8rem;
 }
-.orphanage-details-content p {
+.foster-home-details-content p {
     color: #e68c58bb; /* color text */
     line-height: 1.6;
     margin-top: 2.4rem;
@@ -79,7 +79,7 @@ main {
 
 
 /* Linha */
-.orphanage-details-content hr {
+.foster-home-details-content hr {
     width: 100%;
     height: 1px;
 
@@ -92,7 +92,7 @@ main {
 
 
 /* details text */
-.orphanage-details-content h2 {
+.foster-home-details-content h2 {
     font-size: 3.6rem;
     line-height: 1.5rem;
     color: #ff9d65;
