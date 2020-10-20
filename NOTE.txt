@@ -1,0 +1,31 @@
+
+NOTA PARA REFATORAÇÃO E RENOMEAÇÃO DE (NOMES/VARIÁVEIS)
+
+   * A palavra "orfanato" não já é mais usada, o nome mais 
+   adequado atualmente eu tomei liberdade de substituir 
+   por "lar adotivo", em inglês "foster homes". *
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	orphanage                    = foster-home
+	create-orphanage             = create-foster-home
+
+	save-orphanage               = save-foster-home
+	page-create-orphanage        = page-create-foster-home
+
+	variável => orphanage        = fosterHome
+           	    createOrphanage  = createFosterHome
+            	saveOrphanage    = saveFosterHome
+	#camelCase
+
+	~~~~~~~~~~~~~~~~~~~~~~x2(plural)~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	orphanages                    = foster-homes
+	create-orphanages             = create-foster-homes
+
+	save-orphanages               = save-foster-homes
+	page-create-orphanages        = page-create-foster-homes
+
+	variável => orphanages        = fosterHomes
+          	    createOrphanages  = createFosterHomes
+          	    saveOrphanages    = saveFosterHomes
+	#camelCase
