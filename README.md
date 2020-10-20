@@ -31,19 +31,19 @@
 </p>
 
 # Happy <img src=".github/logo-icon.png" width="20" alt="logo icon">
-Project developed to bring happiness to the world, connecting more people to orphanage children. Project carried out at Next Level Week #3 @Rocketseat.
+Project developed to bring happiness to the world, connecting more people to children in foster homes. Project carried out at Next Level Week # 3 @Rocketseat.
 
 #### Functionalities
-* Site for registering orphanages.
-* App to locate orphanages near your region.
+* Registration site for foster homes.
+* Site to locate foster homes close to your region.
 
 ## Technology 🚀
 This project was developed with the following technologies:
 
-- [Node.js](https://nodejs.org/en/)
-- [Express](https://expressjs.com/pt-br/)
-- [Handlebars](https://handlebarsjs.com/)
-- [SQLite](https://www.sqlite.org/index.html)
+- [Nodemon | ^2.0.5](https://nodejs.org/en/)
+- [Express | ^4.17.1](https://expressjs.com/pt-br/)
+- [Handlebars | ^4.1.1](https://handlebarsjs.com/)
+- [SQLite | ^1.1.0](https://www.sqlite.org/index.html)
 
 ## Layout 🚧
 #### Web Screenshot
