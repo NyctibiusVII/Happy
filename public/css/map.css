@@ -1,10 +1,13 @@
 /* Mini Map */
 .map-container {
     margin-top: 6.4rem;
-
     border: 1px solid #ffe9dccc;
-    border-radius: 2rem;
     background: #ffede25d;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
 }
 #mapid {
     width: 100%;
@@ -22,4 +25,8 @@
 .map-container .leaflet-container {
     border-bottom: 1px solid #ffe9dccc;
     border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
 }

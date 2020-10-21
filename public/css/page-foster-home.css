@@ -33,20 +33,31 @@ main {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1.6rem;
+    -moz-column-gap: 1.6rem;
+    -webkit-column-gap: 1.6rem;
+
     margin: 16px 40px 0;
 }
 .images button {
     height: 8.8rem;
-
     border: 0;
-    border-radius: 2rem;
-    background: none;
 
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+
+    background: none;
     cursor: pointer;
-    overflow: hidden; /* Faz o conteúdo respeita os limites da caixa */
-    
+    overflow: hidden;/*Fazoconteúdorespeitaoslimitesdacaixa*/
+
     opacity: 0.6;
     transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
 }
 .images button:hover, 
 .images button.active {
@@ -103,12 +114,18 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
+    -moz-column-gap: 2rem;
+    -webkit-column-gap: 2rem;
 
     line-height: 1.5;
 }
 .open-details div {
     padding: 3.2rem 2.4rem;
     border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 .open-details img {
     display: block;
@@ -124,6 +141,10 @@ main {
 
 .open-details .open-on-weekends {
     border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 .open-on-weekends.open {
     color: #37C77F;

@@ -17,8 +17,16 @@
 
   .map-container .leaflet-container {
     border-radius: 20px 20px 0 0;
-  }
+    -webkit-border-radius: 20px 20px 0 0;
+    -moz-border-radius: 20px 20px 0 0;
+    -ms-border-radius: 20px 20px 0 0;
+    -o-border-radius: 20px 20px 0 0;
+}
   .map-container footer {
     background-color: #ffede25d;
     border-radius: 0 0 20px 20px;
-  }
+    -webkit-border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    -ms-border-radius: 0 0 20px 20px;
+    -o-border-radius: 0 0 20px 20px;
+}

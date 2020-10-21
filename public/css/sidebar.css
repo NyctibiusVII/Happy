@@ -13,17 +13,25 @@ aside.sidebar {
 aside.sidebar footer button{
     width: 48px;
     height: 48px;
-
     border: none;
-    border-radius: 1.6rem;
+ 
     background: #ffa876;
     cursor: pointer;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
     transition: background-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -ms-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+
+    border-radius: 1.6rem;
+    -webkit-border-radius: 1.6rem;
+    -moz-border-radius: 1.6rem;
+    -ms-border-radius: 1.6rem;
+    -o-border-radius: 1.6rem;
 }
 aside.sidebar footer button:hover{
     background: #ff8288;

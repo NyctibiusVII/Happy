@@ -1,25 +1,29 @@
 /* Button What */
 .primary-button {
     margin-top: 6.4rem;
-
     width: 100%;
     height: 6.4rem;
-
     cursor: pointer;
-
     border: 0;
-    border-radius: 2rem;
     background: #3cdc8c;
-
     color: #ffffff;
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 
     transition: background-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -ms-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
 
-    text-decoration: none;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
 }
 .primary-button:hover {
     background-color: #36cf82;

@@ -1,13 +1,21 @@
 /* animação | index */
 @keyframes up {
-    from { 
+    from {
         opacity: 0;
-        transform: translateY(16px)
-    }
-    to { 
+        transform: translateY(16px);
+        -webkit-transform: translateY(16px);
+        -moz-transform: translateY(16px);
+        -ms-transform: translateY(16px);
+        -o-transform: translateY(16px);
+}
+    to {
         opacity: 1;
-        transform: translateY(0)
-    }
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
 }
 .animate-up {
     animation-name: up;
@@ -20,14 +28,22 @@
 
 /* animação | foster-homes */
 @keyframes right {
-    from { 
+    from {
         opacity: 0;
-        transform: translateX(-100%)
-    }
-    to { 
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+}
+    to {
         opacity: 1;
-        transform: translateX(0)
-    }
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+}
 }
 .animate-right {
     animation-name: right;

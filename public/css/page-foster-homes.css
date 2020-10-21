@@ -45,23 +45,28 @@ a.create-foster-home {
     position: absolute;
     right: 4rem;
     bottom: 4rem;
-
     z-index: 410;
-
     width: 6.4rem;
     height: 6.4rem;
-
     background: #ff37a8;
     border: 0;
-    border-radius: 2rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
-
     box-shadow: 17.2868px 27.65px 41.48 rgba(166, 156, 23, 0.16);
 
     transition: background-color 300ms;
+    -webkit-transition: background-color 300ms;
+    -moz-transition: background-color 300ms;
+    -ms-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
+
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
 }
 a.create-foster-home:hover {
     background: #eb0aa4;
@@ -74,11 +79,15 @@ a.create-foster-home:hover {
     /*margin-left: 1.8rem;*/
     background: linear-gradient(329.54deg, #ff15b9 0%, #ffee56 100%) no-repeat;
     /*rgba(255, 255, 255, 0.8);*/
-    border-radius: 20px;
-
-    /**/position: absolute;
+    position: absolute;
     left: -12rem;
     bottom: 0;
+
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 .leaflet-popup-content {
     color: #ffffff;
@@ -96,20 +105,28 @@ a.create-foster-home:hover {
 #text-limiter {
     padding-left: 2rem;
 }
-.leaflet-popup-content a {/* Button */
+.leaflet-popup-content a {
+    /*Button*/
     width: 4rem;
     height: 4rem;
-
     background: #ffa876;
     box-shadow: 17.2868px 27.65px 41.48 rgba(166, 156, 23, 0.16);
-    /* Deslocamento X | Y, Blur, Cor */
-    border-radius: 12px;
-
+    /*Deslocamento  X    |   Y,   Blur,  Cor*/
     display: flex;
     align-items: center;
     justify-content: center;
 
     transition: background-color .2s;
+    -webkit-transition: background-color .2s;
+    -moz-transition: background-color .2s;
+    -ms-transition: background-color .2s;
+    -o-transition: background-color .2s;
+
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
 }
 .leaflet-popup-content a:hover {
     background: #ff8288;

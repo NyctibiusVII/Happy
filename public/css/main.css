@@ -22,5 +22,5 @@ body, input, button, textarea {
     font: 400 1.8rem/1 'Nunito', sans-serif;
 }
 input, textarea, button:focus{ 
-    outline:none
+    outline:none;
 }

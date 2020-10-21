@@ -2,10 +2,15 @@ form {
   width: 70rem;
   margin: 6.4rem auto;
   background: #ffffff;
-  border: 1px solid #ffe9dccc;  
-  border-radius: 2rem;  
-  overflow: hidden; 
+  border: 1px solid #ffe9dccc;
+  overflow: hidden;
   padding: 8rem;
+  
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
 }
   
 
@@ -47,12 +52,15 @@ fieldset legend {
 }
 .input-block input, .input-block textarea {
   width: 100%;
-
   background: #ffede25d;
-  border: 1px solid #ffe9dccc;
-  border-radius: 2rem;
-
   color: #cf7f50bb;
+  border: 1px solid #ffe9dccc;
+
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
 }
 .input-block input {
   height: 6.4rem;
@@ -75,9 +83,13 @@ fieldset legend {
   height: 6.4rem;
   padding: 0 1.6rem;
   margin-top: 2.4rem;
-  border-radius: 2rem;
-
   cursor: pointer;
+
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
 }
 
 
@@ -92,15 +104,21 @@ fieldset legend {
   position: absolute;
   right: 12px;
   bottom: 14px;
-
   display: flex;
 
   background: #ffe9dccc;
   border: 1px solid #fff5eecc;
+  
   border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 
   padding: .6rem;
-
   cursor: pointer;
 }
