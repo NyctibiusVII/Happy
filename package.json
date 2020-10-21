@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/server.js",
-    "test": "nodemon src/database/test.js"
+    "test": "nodemon src/database/test.js",
+    "INSERT-manual": "nodemon src/database/manual/INSERT-manual.js",
+    "DELETE-manual": "nodemon src/database/manual/DELETE-manual.js",
+    "UPDATE-manual": "nodemon src/database/manual/UPDATE-manual.js"
   },
   "repository": {
     "type": "git",
