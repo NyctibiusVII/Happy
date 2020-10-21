@@ -1,0 +1,37 @@
+const Database = require("../db")
+
+Database.then(async (db) => {
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////// INSIRA O ** ID ** /////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+    const id_up = null //insira o id da tabela que deseja DELETAR
+
+    if (id_up == null || id_up == undefined) {
+        console.error("[!!! ERROR !!!] id = " + id_up + ", por favor insira um id no arquivo DELETE-manual.js[7,19] para continuar!")   //ERROR! (id)
+        process.on("SIGINT", () => {
+            db.close()
+        })
+    }
+ 
+    const fosterHomes = await db.all('DELETE FROM fosterHomes WHERE id = ' + id_up)
+    console.log(fosterHomes) //verifique se foi deletado da tabela  
+})
+process.on("SIGINT", () => {
+    db.close()
+})
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////// SÓ EXECUTE EM CASOS **ESPECÍFICOS** //////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/***SÓ RODE UMA VEZ***///WARNINGX
+/* 
+    $ npm run DELETE-manual
+    $ "ENTER"
+        .......
+        .......
+        .......
+        Server started
+    $ "Ctrl + c"
+*/
