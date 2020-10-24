@@ -10,7 +10,7 @@
   </a>
   <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/NyctibiusVII/NLW-3-Discovery?color=ff69b4&labelColor=ffee56">
   <a href="https://github.com/NyctibiusVII/NLW-3-Discovery/blob/master/LICENSE">
-    <img alt="Licença" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=ff69b4&labelColor=ffee56">
+    <img alt="Licença" src="https://img.shields.io/static/v1?label=License&message=MIT&color=ff69b4&labelColor=ffee56">
   </a>
   <a href="https://picpay.me/Matheus_nyctibius_vii">
   <img alt="Donate" src="https://img.shields.io/static/v1?label=$&message=Donate&color=ff69b4&labelColor=ffee56">
