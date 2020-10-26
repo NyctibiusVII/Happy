@@ -30,3 +30,12 @@
     -ms-border-radius: 0 0 20px 20px;
     -o-border-radius: 0 0 20px 20px;
 }
+
+
+
+/* placeholder */
+#whatsapp::placeholder, 
+#link-img::placeholder, 
+#opening_hours::placeholder{
+  color: #d370575d;
+}

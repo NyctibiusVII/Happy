@@ -42,6 +42,7 @@ This project was developed with the following technologies:
 - [Express | ^4.17.1](https://expressjs.com/pt-br/)
 - [Handlebars | ^4.1.1](https://handlebarsjs.com/)
 - [SQLite | ^1.1.0](https://www.sqlite.org/index.html)
+- [x0popup | ^0.3.3](https://gao-sun.github.io/x0popup/)
 
 ## Layout 🚧
 #### Desktop Screenshot

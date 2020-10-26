@@ -10,6 +10,10 @@
     <!-- Make sure you put this AFTER Leaflet's CSS -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
 
+    <!-- POPUP -->
+    <script src="/scripts/x0popup.min.js"></script>
+    <link rel="stylesheet" href="/css/x0popup.min.css">
+
     <link rel="icon" href="/images/logo-icon.png">
  
     <link rel="stylesheet" href="/css/main.css">
@@ -35,7 +39,7 @@
         </aside>
 
         <main class="animate-appear width-sidebar"> 
-            <form action="save-foster-home" method="post" onsubmit="validate(event)">
+            <form id="theForm" action="save-foster-home" method="post" onsubmit="wantToSendData(event)">
                 <fieldset>
                     <legend>Dados</legend>
     
@@ -61,14 +65,14 @@
     
                     <div class="input-block">
                         <label for="whatsapp">Número de WhatsApp</label>
-                        <input id="whatsapp" name="whatsapp" required />
+                        <input id="whatsapp" type="tel" name="whatsapp" placeholder="Ex: 912345678" maxlength="10" required />
                     </div>
     
                     <div class="input-block images">
                         <label for="images">Fotos</label>
                         <div class="images-upload" id="images">
                             <div class="new-upload">
-                                <input type="url" name="images" placeholder="Cole o link da foto aqui" required/>
+                                <input id="link-img" type="url" name="images" placeholder="Cole o link da foto aqui. Ex: https://example.com/img.png" required/>
                                 <span onclick="deleteField(event)">
                                   <img src="/images/remove-file.svg" alt="Remover Foto"/>
                                 </span>
@@ -91,7 +95,7 @@
                   
                     <div class="input-block">
                        <label for="opening_hours">Horário das visitas</label>
-                       <input id="opening_hours" name="opening_hours" required/>
+                       <input id="opening_hours" name="opening_hours" placeholder="Ex: Das 09:00 as 19:30" required/>
                     </div>
     
                     <div class="input-block">
@@ -103,7 +107,7 @@
                             <button data-value="0" onclick="toggleSelect(event)" type="button">Não</button>
                         </div>
     
-                        <button onclick="validate(event)" type="submit" class="primary-button">Confirmar</button>
+                        <button id="btnC" onclick="wantToSendData(event)" type="submit" class="primary-button">Confirmar</button>
                     </div>
                 </fieldset>
             </form>
