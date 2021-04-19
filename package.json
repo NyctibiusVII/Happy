@@ -1,7 +1,7 @@
 {
-  "name": "NLW3",
+  "name": "Happy",
   "version": "1.0.0",
-  "description": "<h1 align=\"center\">\r   <br>\r     <img src=\"./.github/logo-happy.png\" width=\"500\" heigh=\"150\" alt=\"logo happy\">\r </h1>\r <!-- <h4 align=\"center\">Projeto web construído durante o Next Level Week #03-Discovery com a Rocketseat/maykbrito.</h4> -->\r <p align=\"center\">\r   <a href=\"\">\r     <img alt=\"Platform\" src=\"https://img.shields.io/static/v1?label=Plataform&message=Mobile/PC&color=ff69b4&labelColor=ffee56\">\r   </a>\r   <a aria-label=\"Completed\" href=\"https://nextlevelweek.com/episodios/omnistack/edicao/2\">\r     <img src=\"https://img.shields.io/badge/Happy-NLW 3.0-ff69b4?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg==&labelColor=ffee56\"></img>\r   </a>\r   <img alt=\"Repository size\" src=\"https://img.shields.io/github/repo-size/NyctibiusVII/NLW-3-Discovery?color=ff69b4&labelColor=ffee56\">\r   <a href=\"https://github.com/NyctibiusVII/NLW-3-Discovery/blob/master/LICENSE\">\r     <img alt=\"License\" src=\"https://img.shields.io/static/v1?label=License&message=MIT&color=ff69b4&labelColor=ffee56\">\r   </a>\r   <a href=\"https://picpay.me/Matheus_nyctibius_vii\">\r   <img alt=\"Donate\" src=\"https://img.shields.io/static/v1?label=$&message=Donate&color=ff69b4&labelColor=ffee56\">\r   </a>\r </p>\r <p align=\"center\">\r   <a href=\"#Happy-\">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\r   <a href=\"#technology-\">Technology</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\r   <a href=\"#layout-\">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\r   <a href=\"#license-%EF%B8%8F\">License</a>\r </p>\r <p align=\"center\">\r     <a href=\"README.md\">Inglês</a>\r     ·\r     <a href=\"README-pt.md\">Português</a>\r </p>",
+  "description": "<h1 align=\"center\">\r   <br>\r     <img src=\"./.github/logo-happy.png\" width=\"500\" heigh=\"150\" alt=\"logo happy\">\r </h1>\r <!-- <h4 align=\"center\">Projeto web construído durante o Next Level Week #03-Discovery com a Rocketseat/maykbrito.</h4> -->\r <p align=\"center\">\r   <a href=\"\">\r     <img alt=\"Platform\" src=\"https://img.shields.io/static/v1?label=Plataform&message=Mobile/PC&color=ff69b4&labelColor=ffee56\">\r   </a>\r   <a aria-label=\"Completed\" href=\"https://nextlevelweek.com/episodios/omnistack/edicao/2\">\r     <img src=\"https://img.shields.io/badge/Happy-NLW 3.0-ff69b4?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg==&labelColor=ffee56\"></img>\r   </a>\r   <img alt=\"Repository size\" src=\"https://img.shields.io/github/repo-size/NyctibiusVII/Happy?color=ff69b4&labelColor=ffee56\">\r   <a href=\"https://github.com/NyctibiusVII/Happy/blob/master/LICENSE\">\r     <img alt=\"License\" src=\"https://img.shields.io/static/v1?label=License&message=MIT&color=ff69b4&labelColor=ffee56\">\r   </a>\r   <a href=\"https://picpay.me/Matheus_nyctibius_vii\">\r   <img alt=\"Donate\" src=\"https://img.shields.io/static/v1?label=$&message=Donate&color=ff69b4&labelColor=ffee56\">\r   </a>\r </p>\r <p align=\"center\">\r   <a href=\"#Happy-\">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\r   <a href=\"#technology-\">Technology</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\r   <a href=\"#layout-\">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\r   <a href=\"#license-%EF%B8%8F\">License</a>\r </p>\r <p align=\"center\">\r     <a href=\"README.md\">Inglês</a>\r     ·\r     <a href=\"README-pt.md\">Português</a>\r </p>",
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/server.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NyctibiusVII/NLW-3-Discovery.git"
+    "url": "git+https://github.com/NyctibiusVII/Happy.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NyctibiusVII/NLW-3-Discovery/issues"
+    "url": "https://github.com/NyctibiusVII/Happy/issues"
   },
-  "homepage": "https://github.com/NyctibiusVII/NLW-3-Discovery#readme",
+  "homepage": "https://github.com/NyctibiusVII/Happy#readme",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.1",
